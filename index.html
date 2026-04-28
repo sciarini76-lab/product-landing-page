@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Michael Sciarini | Frontend Junior</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="/script.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">MS</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Chi sono</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Progetti</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contatti</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Ciao, sono <span class="gradient-text">Michael Sciarini</span>
+                </h1>
+                <h2 class="hero-subtitle">Frontend Developer Junior</h2>
+                <p class="hero-description">
+                    Appassionato di web design e sviluppo frontend. 
+                    Creo interfacce moderne e responsive con HTML, CSS e JavaScript.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">I miei progetti</a>
+                    <a href="#contact" class="btn btn-secondary">Contattami</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <img src="./asset/9EAF9288-470B-436D-8FED-BF7F183E977B.png" alt="" width="400" height="400">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Chi sono</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Sono un <strong>Frontend Developer Junior</strong> con una forte passione per la creazione di esperienze web moderne e user-friendly.</p>
+                    <p>Ho solide basi in <strong>HTML5, CSS3 e JavaScript</strong> e sto approfondendo framework come React. Amo trasformare idee in interfacce belle e funzionali.</p>
+                    <p>Disponibile per stage, progetti freelance o collaborazioni!</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Italia</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span> <a href="mailto:sciarini76@gmail.com">michaelsciarini6@gmail.com</a></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span><a href="tel:+39 3389964481">+39 3389964481</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Le mie Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fab fa-html5"></i> HTML & CSS</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-bar">
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-bar">
+                            <span>Sass/SCSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fab fa-js-square"></i> JavaScript</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span>JavaScript ES6+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span>Git & GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">I miei Progetti</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Landing Page Responsive</h3>
+                        <p>Landing page completamente responsive con animazioni CSS e form interattivo.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="./apple.html" class="link-btn" target="_blank">Live Demo</a>
+                            <a href="https://github.com/sciarini76-lab/product-landing-page" class="link-btn github" target="_blank">Codice</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contattami</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Scrivimi!</h3>
+                    <p> Pronto per nuove sfide e collaborazioni. Mandami un messaggio!</p>
+                    <div class="social-links">
+                        <a href="https://github.com/sciarini76-lab/product-landing-page"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/michael-sciarini-321b9b207/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/mikesciaro/"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:michaelsciarini6@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form action="https://formspree.io/f/mbdpwwpb" method="post">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Il tuo nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="La tua email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Il tuo messaggio" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Michael Sciarini. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
